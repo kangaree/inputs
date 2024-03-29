@@ -1,0 +1,72 @@
+<h1>Time Inputs</h1>
+
+<h2>Main Inputs</h2>
+
+<label for="date">date</label>
+
+<input id="date" type="date" />
+
+<label>datetime-local</label>
+
+<input type="datetime-local" />
+
+<label for="appt">time</label>
+
+<input type="time" />
+
+<h3>Datalist</h3>
+
+<label for="sign-choice">what's your sign?</label>
+<input list="signs" id="sign-choice" name="sign-choice" />
+
+<datalist id="signs">
+    <option value="Aries"></option>
+    <option value="Taurus"></option>
+    <option value="Gemini"></option>
+    <option value="Cancer"></option>
+    <option value="Leo"></option>
+    <option value="Virgo"></option>
+    <option value="Libra"></option>
+    <option value="Scorpio"></option>
+    <option value="Sagittarius"></option>
+    <option value="Capricorn"></option>
+    <option value="Aquarius"></option>
+    <option value="Pisces"></option>
+
+    <option value="Ophiuchus"></option>
+
+    <option value="Orion"></option>
+    <option value="Ursa Major"></option>
+    <option value="Ursa Minor"></option>
+    <option value="Draco"></option>
+    <option value="Cassiopeia"></option>
+    <option value="Cygnus"></option>
+    <option value="Andromeda"></option>
+    <option value="Pegasus"></option>
+    <option value="Canis Major"></option>
+    <option value="Canis Minor"></option>
+    <option value="Lyra"></option>
+</datalist>
+
+<h3>progress</h3>
+<progress id="file" value="32" max="100"> 32% </progress>
+
+<h2>Not Well Supported</h2>
+
+<label for="start">month</label>
+
+<input type="month" />
+
+<label>week</label>
+
+<input type="week" />
+
+<h2>Other Inputs</h2>
+<label>number</label>
+<input type="number" min="0" max="23" step="1" />
+
+<label>text</label>
+<input type="text" pattern="[0-9]{2}:[0-9]{2}" placeholder="HH:MM" />
+
+<label>range</label>
+<input type="range" min="0" max="100" step="1" value="50">
